@@ -1,0 +1,15 @@
+DAX Measures for Sales Dashboard
+
+1. Total Sales
+
+Total Sales = SUM(sales_data[Sales])
+
+2. Total Orders
+
+Total Orders = DISTINCTCOUNT(sales_data[Order ID])
+
+3. Average Sales
+
+Average Sales = AVERAGE(sales_data[Sales])
+
+Note: Update column names if they differ in your dataset.
