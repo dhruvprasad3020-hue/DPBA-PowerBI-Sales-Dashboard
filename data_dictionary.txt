@@ -1,0 +1,19 @@
+# Data dictionary
+
+| Column | Meaning | Data type |
+|---|---|---|
+| OrderID | Unique order identifier | Text |
+| OrderDate | Date the order was placed | Date |
+| Region | Sales region | Text |
+| Category | Product category | Text |
+| Product | Product name | Text |
+| Customer | Synthetic customer identifier | Text |
+| Quantity | Number of units sold | Whole number |
+| UnitPrice | Price per unit before discount | Decimal number |
+| DiscountPct | Discount as a decimal (0.10 = 10%) | Decimal number |
+| Sales | Net sales after discount | Decimal number |
+| Cost | Estimated product cost | Decimal number |
+| Profit | Sales minus estimated cost | Decimal number |
+| PaymentMode | Payment method used | Text |
+
+All rows are fictional/synthetic and are intended for educational use only.
